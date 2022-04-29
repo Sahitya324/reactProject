@@ -1,0 +1,128 @@
+.Dashs{
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+.DashContainer{
+    width: 103%;
+    background-color: #93f5aa ;
+    box-shadow: 0px 10px 20px 0px #baee99;
+    height: 18rem!important;
+    border-radius: 0.7rem;
+    color: white;
+    position: relative;
+    cursor: pointer;
+    padding: 1rem;
+}
+.DashContainer:hover{
+    box-shadow: none;
+}
+.Container{
+    width: 50%;
+    background-image: url(https://images.unsplash.com/photo-1509664158680-07c5032b51e5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+    background-size: cover;
+    box-shadow: 0px 10px 20px 0px #e0c6f5;
+    height: 18rem!important;
+    border-radius: 0.7rem;
+    color: white;
+    position: relative;
+    cursor: pointer;
+    /* padding: 1rem; */
+}
+.Container:hover{
+    box-shadow: none;
+}
+.RadialBar{
+    margin-left: 1.5rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.RadialBar>span{
+    margin-top: 1.5rem;
+    font-size: 22px;
+    font-weight: bold;
+    color: black;
+}
+.RadialBar>span>div{
+    margin-top: 0.5rem;
+}
+.RadialBar>span:nth-child(2){
+    margin-top: 0.7rem;
+    font-size: 15px;
+    font-weight: normal;
+}
+.RadialBar>div>button{
+    margin-top: 1rem;
+    height: 2.2rem;
+    width: 4.8rem;
+    border: 0;
+    border-radius: 0.5rem;
+    color: white;
+    background-color: #0fd76d;
+    align-items: center;
+    font-weight: bold;
+}
+.Sahitya{
+    background-color: rgb(0,0,0,0.7);
+    margin: auto;
+    width: 100%;
+    height: 18rem;
+    cursor: pointer;
+    color: white;
+    position: relative;
+    border-radius: 0.7rem;
+    transition: 0.3s ease;
+}
+.Dragon{
+    position: relative;
+    width: 100%;
+    height: 18rem;
+    border-radius: 0.7rem;
+    background-color: rgb(0,0,0,0);
+    color: rgba(246, 242, 242, 0.7);
+    font-weight: bold;
+    font-size: 13PX;
+    padding: 3rem;
+    margin-top: 7rem
+}
+.Design{
+    margin-top: 0.5rem;
+    font-size: 20px;
+    color: white;
+}
+.Dev{
+    margin-top: 00.5rem;
+    color: rgba(255, 255, 255, 0.878);
+    font-size: 12px;
+    font-weight: normal;
+}
+.Ball{
+    position: relative;
+    width: 100%;
+    height: 18rem;
+    border-radius: 0.7rem;
+    background-color: rgb(0,0,0,0);
+    color: rgba(246, 242, 242, 0.7);
+    font-weight: bold;
+    font-size: 13PX;
+    padding: 3rem;
+    margin-top: 8rem
+}
+.Z{
+    position: relative;
+    width: 100%;
+    height: 18rem;
+    border-radius: 0.7rem;
+    background-color: rgb(0,0,0,0);
+    color: rgba(246, 242, 242, 0.7);
+    font-weight: bold;
+    font-size: 13PX;
+    padding: 3rem;
+    margin-top: 8rem
+}
+.promo{
+    height: 50vh;
+    width : 50vh;
+}

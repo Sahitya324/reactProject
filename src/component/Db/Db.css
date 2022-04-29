@@ -1,0 +1,69 @@
+.Db{
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+.Box1{
+    width: 31.7%;
+    background-color: white ;
+    box-shadow: 0px 10px 20px 0px rgb(191, 186, 186);
+    height: 18rem!important;
+    border-radius: 0.7rem;
+    color: white;
+    position: relative;
+    cursor: pointer;
+    /* padding: 1rem; */
+}
+.Rad{
+    font-weight: bold;
+    padding: 1rem;
+    color: black;
+}
+.Box1:hover{
+    box-shadow: none;
+}
+.Box2{
+    width: 66%;
+    background-image: white;
+    background-size: cover;
+    box-shadow: 0px 10px 20px 0px rgb(191, 186, 186);
+    height: 18rem!important;
+    border-radius: 0.7rem;
+    color: white;
+    position: relative;
+    cursor: pointer;
+    /* padding: 1rem; */
+}
+.Box2:hover{
+    box-shadow: none;
+}
+.Rad1{
+    display: flex;
+    font-weight: bold;
+    padding: 1rem;
+    color: black;
+}
+.Rad2{
+    margin-top: 0.2rem;
+    font-weight: normal;
+    color: black;
+    font-size: 13px;
+}
+.circle{
+    /* padding: 2rem; */
+    margin-top: 1.5rem;
+    margin-left: 3.5rem;
+}
+.year{
+    margin-left: 29rem;
+}
+.Cn{
+    margin-top: 3rem;
+    font-size: 13px;
+}
+.am{
+    margin-left: 1rem;
+}
+.month{
+    display: flex;
+}
